@@ -1,0 +1,1096 @@
+Date: Wed, 13 Sep 2023 10:10:46 +0000 (UTC)
+Message-ID: <2049350863.77.1694599846260@9e9a2cce5da2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_76_197786745.1694599846260"
+
+------=_Part_76_197786745.1694599846260
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=D0=BA=D0=B0</ti=
+tle>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=D0=BA=D0=B0</h1>
+    <div class=3D"Section1">
+        <h1 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=
+=D0=B8=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5=D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B0">=D0=9E=D0=BF=D0=B8=
+=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B0</=
+h1>
+<p>=D0=9F=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=BE=D0=BC =D1=8F=D0=B2=D0=BB=D1=
+=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=D0=B1=D0=
+=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=D0=BA=D0=B0 (=D0=B2=D0=B5=D1=80=D1=
+=81=D0=B8=D1=8F 3). <a href=3D"https://online-ru-lib-3.herokuapp.com/" data=
+-card-appearance=3D"inline" class=3D"external-link" rel=3D"nofollow">https:=
+//online-ru-lib-3.herokuapp.com/</a> </p>
+<p><strong>=D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=8F =D1=86=D0=B5=D0=
+=BB=D1=8C =D0=BD=D0=B0=D1=88=D0=B5=D0=B3=D0=BE =D0=B7=D0=B0=D0=BA=D0=B0=D0=
+=B7=D1=87=D0=B8=D0=BA=D0=B0</strong> =E2=80=94 =D0=BF=D1=80=D0=B5=D0=B4=D0=
+=BE=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=B2=D1=81=D0=B5=D0=BC =D0=
+=BD=D0=B0=D1=88=D0=B8=D0=BC =D1=81=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=
+=B8=D0=BA=D0=B0=D0=BC =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=
+=81=D1=82=D1=8C =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C =D1=81=D1=
+=81=D1=8B=D0=BB=D0=BA=D1=83 =D0=BD=D0=B0 =D0=BB=D1=8E=D0=B1=D1=83=D1=8E =D0=
+=BA=D0=BD=D0=B8=D0=B3=D1=83.</p>
+<ul>
+<li><p>=D1=81=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B8 =D0=BC=
+=D0=BE=D0=B3=D1=83=D1=82 =D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D1=82=D1=8C =
+=D0=BA=D0=BD=D0=B8=D0=B3=D0=B8, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =
+=D0=B5=D1=81=D1=82=D1=8C =D0=B2 =D0=B1=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=
+=D0=B5=D0=BA=D0=B5;</p></li>
+<li><p>=D0=B0=D0=B4=D0=BC=D0=B8=D0=BD=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=82=
+=D0=BE=D1=80=D1=8B =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=B7=D0=B0=D0=B3=D1=80=
+=D1=83=D0=B6=D0=B0=D1=82=D1=8C =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=
+=D1=86=D0=B8=D1=8E =D0=BF=D0=BE =D1=8D=D1=82=D0=B8=D0=BC =D0=BA=D0=BD=D0=B8=
+=D0=B3=D0=B0=D0=BC.</p></li>
+</ul>
+<p>=D0=9D=D0=B0 =D0=B3=D0=BB=D0=B0=D0=B2=D0=BD=D0=BE=D0=B9 =D0=B5=D1=81=D1=
+=82=D1=8C =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=
+=8C =D0=BF=D0=BE=D0=B8=D1=81=D0=BA=D0=B0, =D0=B0 =D1=82=D0=B0=D0=BA=D0=B6=
+=D0=B5 =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C =
+=D1=84=D0=B8=D0=BB=D1=8C=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D0=BA=D0=BD=
+=D0=B8=D0=B3 =D0=BF=D0=BE =D0=B6=D0=B0=D0=BD=D1=80=D1=83, =D0=B0=D0=B2=D1=
+=82=D0=BE=D1=80=D1=83, =D0=BA=D0=BD=D0=B8=D0=B3=D0=B0=D0=BC-=D0=BD=D0=BE=D0=
+=B2=D0=B8=D0=BD=D0=BA=D0=B0=D0=BC =D0=B8 =D0=BF=D0=BE=D0=BF=D1=83=D0=BB=D1=
+=8F=D1=80=D0=BD=D1=8B=D0=BC =D0=BA=D0=BD=D0=B8=D0=B3=D0=B0=D0=BC.</p>
+<p>=D0=A1 =D0=BB=D1=8E=D0=B1=D0=BE=D0=B9 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=86=D1=8B =D0=BF=D1=80=D0=B8 =D0=BA=D0=BB=D0=B8=D0=BA=D0=B5 =D0=BD=D0=
+=B0 <strong>=C2=AB</strong>=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=
+=D0=BA=D0=B0<strong>=C2=BB</strong> =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=
+=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8C =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B2=D0=
+=B5=D1=80=D0=BD=D1=83=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0 =D0=B3=D0=BB=D0=
+=B0=D0=B2=D0=BD=D1=83=D1=8E =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=
+=83. =D0=9F=D1=80=D0=B8 =D0=B2=D0=B2=D0=BE=D0=B4=D0=B5 =D1=82=D0=B5=D0=BA=
+=D1=81=D1=82=D0=B0 =D0=B2 =D0=BF=D0=BE=D0=B8=D1=81=D0=BA =D0=B8 =D0=BD=D0=
+=B0=D0=B6=D0=B0=D1=82=D0=B8=D0=B8 =D0=BD=D0=B0 =D0=BA=D0=BD=D0=BE=D0=BF=D0=
+=BA=D1=83 <strong>=C2=AB</strong>=D0=9D=D0=B0=D0=B9=D1=82=D0=B8<strong>=C2=
+=BB</strong> =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D0=B0 =D0=B2=D1=8B=D0=B4=
+=D0=B0=D0=B5=D1=82 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =
+=D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D1=8B. </p>
+<p style=3D"text-align: center;"></p>
+<h2 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=
+=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=B0=
+=D1=8F=D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=B8=D1=
+=8F">=D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=B0=D1=8F =D0=B4=D0=BE=D0=BA=D1=
+=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=B8=D1=8F</h2>
+<div id=3D"expander-1618713491" class=3D"expand-container">
+<div id=3D"expander-control-1618713491" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=A2=D0=
+=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D1=8B: https://app.qase.io/project=
+/BI</span>
+</div>
+<div id=3D"expander-content-1618713491" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<div id=3D"expander-1702335561" class=3D"expand-container">
+<div id=3D"expander-control-1702335561" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D1=87=D0=
+=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82=D1=8B: https://chlist.sitechco.ru/projec=
+t/42100/checklist/1475503/details</span>
+</div>
+<div id=3D"expander-content-1702335561" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<p style=3D"text-align: center;"></p>
+<h2 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=
+=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=A1=D1=80=D0=BE=D0=BA=D0=B8=D0=B2=D1=8B=
+=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F">=D0=A1=D1=80=D0=BE=D0=BA=
+=D0=B8 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F </h2>
+<p>=D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=
+=82 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=D0=BB=D1=81=D1=8F =D0=BF=D0=
+=BE=D1=8D=D1=82=D0=B0=D0=BF=D0=BD=D0=BE.</p>
+<ol start=3D"1">
+<li><p>=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=BE=D1=81=D0=BD=
+=D0=BE=D0=B2=D0=BD=D0=BE=D0=B3=D0=BE =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=
+=D0=BE=D0=BD=D0=B0=D0=BB=D0=B0.</p></li>
+<li><p>=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=BD=D0=BE=D0=B2=
+=D0=BE=D0=B3=D0=BE =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=
+=D0=BB=D0=B0, =D0=BF=D0=BE=D0=B2=D1=82=D0=BE=D1=80=D0=BD=D0=BE=D0=B5 =D1=82=
+=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=B8 =
+=D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D1=80=D0=B5=
+=D0=B3=D1=80=D0=B5=D1=81=D1=81 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</p></li>
+<li><p> =D0=A0=D0=B5=D0=B3=D1=80=D0=B5=D1=81=D1=81=D0=B8=D0=BE=D0=BD=D0=BD=
+=D0=BE=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=
+=D0=B8=D0=B5. =D0=9F=D0=BE=D0=B2=D1=82=D0=BE=D1=80=D0=BD=D0=BE=D0=B5 =D1=82=
+=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5. =D0=97=
+=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D0=B8=D1=81=D0=BF=D1=80=D0=B0=
+=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D0=B1=D0=B0=D0=B3=D0=BE=D0=B2. =
+=D0=A1=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE=
+=D1=82=D1=87=D0=B5=D1=82=D0=B0 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</p></li>
+</ol>
+<div id=3D"expander-140041211" class=3D"expand-container">
+<div id=3D"expander-control-140041211" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=92=D1=
+=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82 =D0=B7=D0=B0=D0=BD=D1=8F=D0=BB=D0=BE 5 =D0=B4=D0=BD=D0=B5=D0=B9.<=
+/span>
+</div>
+<div id=3D"expander-content-140041211" class=3D"expand-content">
+<ol start=3D"1">
+<li><p>=D0=98=D0=B7=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D1=80=D0=B5=
+=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9. =D0=9D=D0=B0=D0=BF=D0=B8=D1=81=
+=D0=B0=D0=BD=D0=B8=D0=B5 smoke-=D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=B2, =D0=BD=
+=D0=B0=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=84=D1=83=D0=BD=D0=BA=
+=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=B8 =D0=BD=
+=D0=B5=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D1=8B=D1=85 =D1=82=D0=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D0=BE=D0=
+=B2</p></li>
+<li><p>=D0=9F=D1=80=D0=BE=D0=B3=D0=BE=D0=BD =D1=82=D0=B5=D1=81=D1=82 =D0=BA=
+=D0=B5=D0=B9=D1=81=D0=BE=D0=B2. =D0=A4=D0=B8=D0=BA=D1=81=D0=B0=D1=86=D0=B8=
+=D1=8F =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=BE=D0=B2 =D0=B2 =D0=B1=D0=B0=
+=D0=B3=D1=82=D1=80=D0=B5=D0=BA=D0=B8=D0=BD=D0=B3=D0=BE=D0=B2=D0=BE=D0=B9 =
+=D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D0=B5</p></li>
+<li><p>=D0=98=D0=B7=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D1=80=D0=B5=
+=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9 =D0=BA =D0=BD=D0=BE=D0=B2=D0=BE=
+=D0=BC=D1=83 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=
+=D1=83. =D0=9D=D0=B0=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 smoke-=D1=82=
+=D0=B5=D1=81=D1=82=D0=BE=D0=B2 =D0=BA =D0=BD=D0=BE=D0=B2=D0=BE=D0=BC=D1=83 =
+=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=83. =D0=9D=
+=D0=B0=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=84=D1=83=D0=BD=D0=BA=
+=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D1=82=D0=B5=
+=D1=81=D1=82=D0=BE=D0=B2.</p></li>
+<li><p>=D0=9F=D1=80=D0=BE=D0=B3=D0=BE=D0=BD smoke-=D1=82=D0=B5=D1=81=D1=82=
+=D0=B0. =D0=9F=D1=80=D0=BE=D0=B3=D0=BE=D0=BD =D1=82=D0=B5=D1=81=D1=82-=D0=
+=BA=D0=B5=D0=B9=D1=81=D0=BE=D0=B2 =D0=BD=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D1=
+=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D0=B0. =D0=9F=D1=
+=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=B2=D1=
+=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F. =D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D0=
+=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D1=80=D0=B5=D0=B3=D1=80=D0=B5=D1=81=D1=81=D0=
+=B8=D0=BE=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F. =D0=A4=D0=B8=D0=BA=D1=81=D0=B0=D1=
+=86=D0=B8=D1=8F =D0=BD=D0=BE=D0=B2=D1=8B=D1=85 =D0=B4=D0=B5=D1=84=D0=B5=D0=
+=BA=D1=82=D0=BE=D0=B2 =D0=B8 =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=
+=B5 =D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D1=
+=85 =D0=B1=D0=B0=D0=B3=D0=BE=D0=B2.</p></li>
+<li><p> =D0=9F=D0=BE=D0=B2=D1=82=D0=BE=D1=80=D0=BD=D0=BE=D0=B5 =D0=B8 =D1=
+=80=D0=B5=D0=B3=D1=80=D0=B5=D1=81=D1=81=D0=B8=D0=BE=D0=BD=D0=BD=D0=BE=D0=B5=
+ =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5. =
+=D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D0=B8=D1=81=D0=BF=D1=80=
+=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D0=B1=D0=B0=D0=B3=D0=BE=
+=D0=B2. =D0=A1=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =
+=D0=BE=D1=82=D1=87=D0=B5=D1=82=D0=B0 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=
+=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</p></li>
+</ol>
+</div>
+</div>
+<p></p>
+<p> =D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=
+=82 - =D0=B1=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=D0=BA=D0=B0 =D1=8F=
+=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F Minimal viable product. =D0=9E=
+=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=B5 =D1=86=D0=B5=D0=BB=D0=B8 =D0=B8 =
+=D0=B7=D0=B0=D0=B4=D0=B0=D1=87=D0=B8 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=
+=D0=B5=D0=BD=D1=8B. =D0=94=D0=BB=D1=8F =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D1=
+=83=D0=B4=D0=BE=D0=B1=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=
+=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=80=D0=B5=D0=BA=D0=
+=BE=D0=BC=D0=B5=D0=BD=D0=B4=D1=83=D1=8E =D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=
+=B2=D0=B8=D1=82=D1=8C =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=83 =D1=84=D0=B8=D0=
+=BB=D1=8C=D1=82=D1=80=D0=B0 =D0=BA=D0=BD=D0=B8=D0=B3 =D0=B8 =D0=BD=D0=B0=D0=
+=B2=D0=B8=D0=B3=D0=B0=D1=86=D0=B8=D1=8E. =D0=94=D0=BB=D1=8F =D0=B1=D0=BE=D0=
+=BB=D0=B5=D0=B5 =D0=BF=D1=80=D0=B8=D1=8F=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=
+=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F=
+ =D1=81=D0=B0=D0=B9=D1=82=D0=B0 =D1=80=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=
+=D0=B4=D1=83=D1=8E =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=
+=D0=B0=D1=82=D1=8C =D0=B4=D0=B8=D0=B7=D0=B0=D0=B9=D0=BD=D0=B5=D1=80=D1=81=
+=D0=BA=D0=B8=D0=B9 =D0=BF=D0=BE=D0=B4=D1=85=D0=BE=D0=B4. =D0=B4=D0=BE=D1=80=
+=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D1=82=D1=8C =D0=B4</p>
+<h2 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=
+=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=9C=D0=B5=D1=82=D1=80=D0=B8=D0=BA=D0=B8">=
+=D0=9C=D0=B5=D1=82=D1=80=D0=B8=D0=BA=D0=B8</h2>
+<p>=D0=A0=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=D0=BE=D0=B2=D0=B0=D0=BD=
+=D0=BD=D1=8B=D0=B5 =D0=BA =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D1=8E =D0=BC=D0=B5=D1=82=D1=80=D0=B8=D0=BA=D0=B8.<=
+/p>
+<ol start=3D"1">
+<li><p>=D0=9A=D0=BE=D1=8D=D1=84=D1=84=D0=B8=D1=86=D0=B8=D0=B5=D0=BD=D1=82 =
+=D1=81=D1=82=D0=B0=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =
+=D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9. =D0=A2=D1=80=
+=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=87=D0=B0=D1=81=D1=82=
+=D0=BE =D0=BC=D0=B5=D0=BD=D1=8F=D1=8E=D1=82=D1=81=D1=8F, =D0=B4=D0=BE=D1=81=
+=D1=82=D0=B0=D1=82=D0=BE=D1=87=D0=BD=D0=BE =D0=BC=D0=BD=D0=BE=D0=B3=D0=BE =
+=D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D0=BE=D0=B2 =D0=BA =D0=BD=D0=B8=D0=BC =
+=D0=B8 =D1=82=D1=80=D0=B5=D0=B1=D1=83=D1=8E=D1=82=D1=81=D1=8F =D0=B3=D0=BB=
+=D0=BE=D0=B1=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BF=D0=B5=D1=80=D0=B5=
+=D0=B4=D0=B5=D0=BB=D0=BA=D0=B8. =D0=94=D0=B0=D0=BD=D0=BD=D0=B0=D1=8F =D0=BC=
+=D0=B5=D1=82=D1=80=D0=B8=D0=BA=D0=B0 =D0=BF=D0=BE=D0=BC=D0=BE=D0=B6=D0=B5=
+=D1=82 =D1=83=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C =D1=80=D0=B0=D0=B1=D0=BE=
+=D1=82=D1=83 =D1=81 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=
+=D1=8F=D0=BC=D0=B8.</p></li>
+<li><p>=D0=9F=D0=BB=D0=BE=D1=82=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B4=D0=B5=
+=D1=84=D0=B5=D0=BA=D1=82=D0=BE=D0=B2. =D0=9C=D0=B5=D1=82=D1=80=D0=B8=D0=BA=
+=D0=B0 =D0=BF=D0=BE=D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=BD=D0=B0=D0=BC =D0=B2=
+=D1=8B=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=8C =D1=87=D0=B0=D1=81=D1=82=D1=8C =
+=D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D1=81 =D0=BD=D0=B0=D0=B8=D0=B1=
+=D0=BE=D0=BB=D1=8C=D1=88=D0=B8=D0=BC =D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=
+=D1=81=D1=82=D0=B2=D0=BE=D0=BC =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=BE=
+=D0=B2. =D0=98 =D0=BC=D1=8B =D1=83=D0=B4=D0=B5=D0=BB=D0=B8=D0=BC =D0=B1=D0=
+=BE=D0=BB=D1=8C=D1=88=D0=B5 =D0=B2=D0=BD=D0=B8=D0=BC=D0=B0=D0=BD=D0=B8=D1=
+=8F =D0=B2 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B5 =D0=
+=B8 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B8</p></li>
+<li><p>=D0=A1=D1=80=D0=B5=D0=B4=D0=BD=D0=B5=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=
+=D1=8F =D0=B6=D0=B8=D0=B7=D0=BD=D0=B8 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=
+=D0=B0. =D0=94=D0=BE=D0=B2=D0=BE=D0=BB=D1=8C=D0=BD=D0=BE =D0=B1=D0=BE=D0=BB=
+=D1=8C=D1=88=D0=BE=D0=B5 =D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=
+=D0=B2=D0=BE =D0=B1=D0=B0=D0=B3=D0=BE=D0=B2 =D0=BF=D0=B5=D1=80=D0=B5=D1=85=
+=D0=BE=D0=B4=D1=8F=D1=82 =D0=BE=D1=82 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 =
+=D0=BA =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8. =D0=9F=D0=BE=D0=BC=D0=BE=D0=B6=
+=D0=B5=D1=82 =D1=83=D1=82=D0=BE=D1=87=D0=BD=D0=B8=D1=82=D1=8C =D1=81=D1=80=
+=D0=B5=D0=B4=D0=BD=D0=B5=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D0=BD=D0=B0 =
+=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=83 =D1=81 =D0=BE=D0=B4=D0=BD=D0=B8=D0=BC =
+=D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=BE=D0=BC.</p></li>
+</ol>
+<p style=3D"text-align: center;"></p>
+<h2 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=
+=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=
+=D0=BD=D0=BD=D1=8B=D0=B5=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B">=D0=9F=D1=80=
+=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D1=80=D0=B0=D0=B1=
+=D0=BE=D1=82=D1=8B</h2>
+<p>=D0=98=D0=B7=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D1=80=D0=B5=D0=
+=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9 =D0=BA =D1=81=D0=B8=D1=81=D1=82=D0=
+=B5=D0=BC=D0=B5: <a href=3D"https://skyengpublic.notion.site/c6168e90234b4e=
+dbac473d50b6dd4d48" data-card-appearance=3D"inline" class=3D"external-link"=
+ rel=3D"nofollow">https://skyengpublic.notion.site/c6168e90234b4edbac473d50=
+b6dd4d48</a> </p>
+<div id=3D"expander-1956356561" class=3D"expand-container">
+<div id=3D"expander-control-1956356561" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=A1=D0=
+=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=
+=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=B8 =D0=BD=D0=B5=D1=
+=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=
+=D1=85 =D1=82=D0=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D0=BE=D0=B2: https=
+://app.qase.io/project/BI</span>
+</div>
+<div id=3D"expander-content-1956356561" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<div id=3D"expander-1744610329" class=3D"expand-container">
+<div id=3D"expander-control-1744610329" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=9F=D1=
+=80=D0=BE=D0=B3=D0=BE=D0=BD =D1=82=D0=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=
+=81=D0=BE=D0=B2: https://app.qase.io/run/BI/dashboard/1</span>
+</div>
+<div id=3D"expander-content-1744610329" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<div id=3D"expander-1733113215" class=3D"expand-container">
+<div id=3D"expander-control-1733113215" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=A1=D0=
+=BE=D0=B7=D0=B4=D0=B0=D0=BD=D1=8B =D0=B8 =D0=B7=D0=B0=D1=84=D0=B8=D0=BA=D1=
+=81=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D1=8B =D0=B1=D0=B0=D0=B3=D0=B8: htt=
+ps://arhip1987.atlassian.net/jira/software/c/projects/BB/issues/</span>
+</div>
+<div id=3D"expander-content-1733113215" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<p>=D0=98=D0=B7=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D1=80=D0=B5=D0=
+=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9 =D0=BA =D0=BD=D0=BE=D0=B2=D0=BE=D0=
+=BC=D1=83 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=
+=83: <a href=3D"https://skyengpublic.notion.site/user-story-61e1748d896b4d6=
+69541037640c87d8f" data-card-appearance=3D"inline" class=3D"external-link" =
+rel=3D"nofollow">https://skyengpublic.notion.site/user-story-61e1748d896b4d=
+669541037640c87d8f</a> </p>
+<div id=3D"expander-1446739753" class=3D"expand-container">
+<div id=3D"expander-control-1446739753" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=9F=D1=
+=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 smoke-=D1=82=D0=B5=D1=
+=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F: https://app.qase=
+.io/project/BI?case=3D25&amp;suite=3D9</span>
+</div>
+<div id=3D"expander-content-1446739753" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<div id=3D"expander-1004257705" class=3D"expand-container">
+<div id=3D"expander-control-1004257705" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=9F=D1=
+=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D1=80=D0=B5=D0=B3=D1=
+=80=D0=B5=D1=81=D1=81=D0=B8=D0=BE=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=
+=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F: https://ch=
+list.sitechco.ru/project/42100/checklist/1475503/details</span>
+</div>
+<div id=3D"expander-content-1004257705" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<div id=3D"expander-1274324058" class=3D"expand-container">
+<div id=3D"expander-control-1274324058" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"962f91feb15283dc743e7f7adbceccf4" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">=D0=9F=D1=
+=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=B2=D1=
+=82=D0=BE=D1=80=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F: https://arhip1987.atlassian.net/ji=
+ra/software/c/projects/BB/issues/</span>
+</div>
+<div id=3D"expander-content-1274324058" class=3D"expand-content">
+<p>=D0=BB=D0=BE=D0=B3=D0=B8=D0=BD: <a href=3D"mailto:kpotov.enik@mail.ru" c=
+lass=3D"external-link" rel=3D"nofollow"><u>kpotov.enik@mail.ru</u></a></p>
+<p>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C: Arhip123</p>
+</div>
+</div>
+<p></p>
+<h2 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=
+=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=A1=D1=82=D0=B0=D1=82=D0=B8=D1=81=D1=82=
+=D0=B8=D0=BA=D0=B0=D0=BF=D0=BE=D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=B0=D0=
+=BC">=D0=A1=D1=82=D0=B0=D1=82=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B0 =D0=BF=D0=
+=BE =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=B0=D0=BC</h2>=20
+<div id=3D"refresh-module-1143859521" class=3D"confluence-jim-macro refresh=
+-module-id jira-table ">=20
+<p> </p>
+<div id=3D"jira-issues-1143859521" style=3D"width: 100%;  overflow: auto;" =
+class=3D"jira-issues">=20
+<table class=3D"aui">=20
+<tbody>=20
+<tr></tr>=20
+<tr>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=A2=D0=B8=D0=BF =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=
+=81=D0=B0</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=9A=D0=BB=D1=8E=D1=87</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=9A=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B5 =D0=BE=D0=
+=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=
+=B5=D0=BB=D1=8C</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=90=D0=B2=D1=82=D0=BE=D1=80</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=9F=D1=80=D0=B8=D0=BE=D1=80=D0=B8=D1=82=D0=B5=D1=
+=82</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=A0=D0=B5=D0=B7=D0=BE=D0=BB=D1=8E=D1=86=D0=B8=D1=
+=8F</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=
+=BD=D1=8B=D0=B9</span></th>=20
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">=D0=94=D0=BB=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=
+=BE=D1=81=D1=82=D1=8C</span></th>=20
+</tr>=20
+<tr class=3D"rowNormal">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-10"><img src=3D"https://arhip=
+1987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/1=
+0303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-10">BB-10</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-10"> =D0=92 =D0=BF=D0=BE=D1=80=D1=82=D0=B0=D0=
+=BB=D0=B5 =D0=B0=D0=B4=D0=BC=D0=B8=D0=BD=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=
+=82=D0=BE=D1=80=D0=B0 =D0=BE=D1=82=D1=81=D1=83=D1=82=D1=81=D1=82=D0=B2=D1=
+=83=D0=B5=D1=82 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D1=83=D0=B4=D0=B0=D0=
+=BB=D0=B8=D1=82=D1=8C =D0=BA=D0=BD=D0=B8=D0=B3=D1=83. =D0=A0=D0=B5=D0=B3=D1=
+=80=D0=B5=D1=81=D1=81. </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/highest.svg" a=
+lt=3D"Highest" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success"=
+> =D0=93=D0=BE=D1=82=D0=BE=D0=B2=D0=BE </span> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=93=D0=BE=D1=82=D0=
+=BE=D0=B2=D0=BE </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 11/=D0=
+=B0=D0=BF=D1=80/23 2:40 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 12/=D0=
+=BC=D0=B0=D1=8F/23 2:15 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowAlternate">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-9"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-9">BB-9</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-9"> =D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B0 =D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D1=
+=8F =D1=82=D0=B5=D0=BA=D1=81=D1=82=D0=B0 =D0=BE=D1=82=D0=B7=D1=8B=D0=B2=D0=
+=B0 =D0=B2 =D0=A2=D0=B0=D0=B1 "=D0=BE=D1=82=D0=B7=D1=8B=D0=B2=D1=8B", =D0=
+=BF=D1=80=D0=B8 =D0=B7=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=BD=D0=
+=BE=D0=BC =D0=BF=D0=BE=D0=BB=D0=B5 =D0=BE=D1=82=D0=B7=D1=8B=D0=B2=D0=B0. =
+=D0=A0=D0=B5=D0=B3=D1=80=D0=B5=D1=81=D1=81 </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/low.svg" alt=
+=3D"Low" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success"=
+> =D0=93=D0=BE=D1=82=D0=BE=D0=B2=D0=BE </span> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=93=D0=BE=D1=82=D0=
+=BE=D0=B2=D0=BE </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 11/=D0=
+=B0=D0=BF=D1=80/23 2:31 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 12/=D0=
+=BC=D0=B0=D1=8F/23 2:15 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowNormal">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-8"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-8">BB-8</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-8"> =D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B0 =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=B8 =D0=B7=D0=B0=D0=B3=D1=
+=80=D1=83=D0=B7=D0=BA=D0=B8 =D0=BF=D1=80=D0=B8 =D0=B2=D1=85=D0=BE=D0=B4=D0=
+=B5 =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=D1=82 =D0=B1=D0=B8=D0=B1=D0=BB=D0=B8=D0=
+=BE=D1=82=D0=B5=D0=BA=D0=B0. =D0=A0=D0=B5=D0=B3=D1=80=D0=B5=D1=81=D1=81 </a=
+> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/high.svg" alt=
+=3D"High" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success"=
+> =D0=93=D0=BE=D1=82=D0=BE=D0=B2=D0=BE </span> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=93=D0=BE=D1=82=D0=
+=BE=D0=B2=D0=BE </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 11/=D0=
+=B0=D0=BF=D1=80/23 2:24 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 12/=D0=
+=BC=D0=B0=D1=8F/23 2:14 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowAlternate">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-7"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-7">BB-7</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-7"> =D0=92 =D0=BF=D0=BE=D1=80=D1=82=D0=B0=D0=
+=BB=D0=B5 =D0=B0=D0=B4=D0=BC=D0=B8=D0=BD=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=
+=82=D0=BE=D1=80=D0=B0, =D0=BF=D1=80=D0=B8 =D0=B7=D0=B0=D0=BF=D0=BE=D0=BB=D0=
+=BD=D0=B5=D0=BD=D0=B8=D0=B8 =D0=BF=D0=BE=D0=BB=D0=B5 =D0=BD=D0=B0=D0=B7=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 =D1=81=D0=BC=D0=
+=B0=D0=B9=D0=BB=D0=B8=D0=BA=D0=B0=D0=BC=D0=B8, =D0=BA=D0=BD=D0=BE=D0=BF=D0=
+=BA=D0=B0 =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BF=D1=80=D0=
+=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82 =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=
+=B5 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5. </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/highest.svg" a=
+lt=3D"Highest" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success"=
+> =D0=93=D0=BE=D1=82=D0=BE=D0=B2=D0=BE </span> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=93=D0=BE=D1=82=D0=
+=BE=D0=B2=D0=BE </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 4:16 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 12/=D0=
+=BC=D0=B0=D1=8F/23 2:14 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowNormal">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-6"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-6">BB-6</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-6"> =D0=92 =D0=A2=D0=B0=D0=B1 "=D0=BE=D1=82=
+=D0=B7=D1=8B=D0=B2=D1=8B" =D0=BF=D1=80=D0=B8 =D0=BD=D0=B0=D0=BF=D0=B8=D1=81=
+=D0=B0=D0=BD=D0=B8=D0=B8 =D0=BE=D1=82=D0=B7=D1=8B=D0=B2=D0=B0 =D0=BD=D0=B0 =
+=D0=BB=D0=B0=D1=82=D0=B8=D0=BD=D0=B8=D1=86=D0=B5 =D0=BA=D0=BD=D0=BE=D0=BF=
+=D0=BA=D0=B0 "=D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C" =D0=
+=BD=D0=B5 =D0=BF=D1=80=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82 =D0=BB=D0=
+=B0=D1=82=D0=B8=D0=BD=D1=81=D0=BA=D0=B8=D0=B5 =D0=B1=D1=83=D0=BA=D0=B2=D1=
+=8B. </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/low.svg" alt=
+=3D"Low" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-complete=
+"> =D0=9A =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8E </sp=
+an> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unresolved </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 4:10 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 4:10 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowAlternate">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-5"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-5">BB-5</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-5"> =D0=92 =D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=
+=B5 =D0=BA=D0=BD=D0=B8=D0=B3, =D0=B2=D1=8B=D1=81=D0=BE=D1=82=D0=B0 =D1=81=
+=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=B0 =D1=82=D0=B5=D0=BA=D1=81=D1=82=D0=B0 =
+=D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F =D0=BA=D0=BD=D0=B8=D0=B3=
+=D0=B8 =D0=BD=D0=B5 =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=
+=D1=82 3/4 =D0=BE=D1=82 =D0=B2=D1=8B=D1=81=D0=BE=D1=82=D1=8B =D0=BA=D0=B0=
+=D1=80=D1=82=D0=B8=D0=BD=D0=BA=D0=B8 =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8. </a> <=
+/td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/medium.svg" al=
+t=3D"Medium" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success"=
+> =D0=93=D0=BE=D1=82=D0=BE=D0=B2=D0=BE </span> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=93=D0=BE=D1=82=D0=
+=BE=D0=B2=D0=BE </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:59 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 11/=D0=
+=B0=D0=BF=D1=80/23 3:02 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowNormal">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-4"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-4">BB-4</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-4"> =D0=92 =D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=
+=B5 =D0=BA=D0=BD=D0=B8=D0=B3, =D0=BF=D1=80=D0=B8 =D0=BE=D1=82=D1=81=D1=83=
+=D1=82=D1=81=D1=82=D0=B2=D0=B8=D0=B8 =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D1=8F =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8,=D0=BF=D0=BE=D1=8F=D0=B2=D0=BB=
+=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BD=D0=B0=D0=B4=D0=BF=D0=B8=D1=81=D1=8C "=
+=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BA=D0=BD=D0=B8=D0=B3=
+=D0=B8 =D0=BF=D0=BE=D0=BA=D0=B0 =D0=BD=D0=B5 =D0=B4=D0=BE=D1=81=D1=82=D1=83=
+=D0=BF=D0=BD=D0=BE" </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/low.svg" alt=
+=3D"Low" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-complete=
+"> =D0=9A =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8E </sp=
+an> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unresolved </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:55 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:55 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowAlternate">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-3"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-3">BB-3</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-3"> =D0=9F=D1=80=D0=B8 =D0=BD=D0=B0=D0=B6=D0=
+=B0=D1=82=D0=B8=D0=B8 =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=D1=82=D0=B8=D0=BD=D0=
+=BA=D1=83 =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8, =D0=BF=D0=B5=D1=80=D0=B5=D1=85=D0=
+=BE=D0=B4 =D0=BD=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=83 =D1=
+=81 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=B5=D0=B9 =D0=
+=BE =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 =D0=BD=D0=B5 =D0=BF=D1=80=D0=BE=D0=B8=D1=
+=81=D1=85=D0=BE=D0=B4=D0=B8=D1=82. </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/high.svg" alt=
+=3D"High" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-complete=
+"> =D0=9A =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8E </sp=
+an> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unresolved </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:51 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:51 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowNormal">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-2"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-2">BB-2</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-2"> =D0=92 =D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=
+=B5 =D0=BA=D0=BD=D0=B8=D0=B3, =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D1=
+=8F =D0=BA=D0=BD=D0=B8=D0=B3 =D1=80=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=BE=D0=
+=B6=D0=B5=D0=BD=D1=8B =D0=BD=D0=B5 =D0=B2 =D0=B0=D0=BB=D1=84=D0=B0=D0=B2=D0=
+=B8=D1=82=D0=BD=D0=BE=D0=BC =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5 =D0=
+=BF=D1=80=D0=B8 =D0=B2=D1=85=D0=BE=D0=B4=D0=B5 =D0=BD=D0=B0 =D1=81=D0=B0=D0=
+=B9=D1=82 https://online-ru-library.herokuapp.com/ </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/low.svg" alt=
+=3D"Low" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-complete=
+"> =D0=9A =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8E </sp=
+an> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unresolved </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:47 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:47 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+<tr class=3D"rowAlternate">=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-1"><img src=3D"https://arhip1=
+987.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10=
+303?size=3Dmedium" alt=3D"=D0=91=D0=B0=D0=B3" class=3D"icon"></a> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <a href=
+=3D"https://arhip1987.atlassian.net/browse/BB-1">BB-1</a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> <a href=3D"https://arhi=
+p1987.atlassian.net/browse/BB-1"> =D0=9D=D0=B5 =D0=BE=D1=81=D1=83=D1=89=D0=
+=B5=D1=81=D1=82=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BF=D0=B5=D1=
+=80=D0=B5=D1=85=D0=BE=D0=B4 =D0=BD=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=86=D1=83 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=
+=B8 =D0=BE =D0=BA=D0=BD=D0=B8=D0=B3=D0=B5 =D0=BF=D1=80=D0=B8 =D0=BA=D0=BB=
+=D0=B8=D0=BA=D0=B5 =D0=BD=D0=B0 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=
+=D0=B5 =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 </a> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> Unassigned </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=9D=D0=B8=D0=BA=D0=
+=BE=D0=BB=D0=B0=D0=B9 </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <img sr=
+c=3D"https://arhip1987.atlassian.net/images/icons/priorities/highest.svg" a=
+lt=3D"Highest" class=3D"icon"> </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> <!-- Th=
+e new status lozengens support for JIRA 6.2 or later. Otherwise we use the =
+icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success"=
+> =D0=93=D0=BE=D1=82=D0=BE=D0=B2=D0=BE </span> </td>=20
+<td class=3D"jira-macro-table-underline-pdfexport"> =D0=93=D0=BE=D1=82=D0=
+=BE=D0=B2=D0=BE </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 10/=D0=
+=B0=D0=BF=D1=80/23 3:42 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> 11/=D0=
+=B0=D0=BF=D1=80/23 3:07 PM </td>=20
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"> </td>=
+=20
+</tr>=20
+</tbody>=20
+</table>=20
+</div>=20
+<div class=3D"refresh-issues-bottom"> <span id=3D"total-issues-count" class=
+=3D"total-issues-count"> <a rel=3D"nofollow" title=3D"=D0=9F=D0=BE=D0=BA=D0=
+=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B2=D1=81=D0=B5 =D1=81=D0=BE=D0=BE=D1=82=D0=
+=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D0=B7=D0=
+=B0=D0=B4=D0=B0=D1=87=D0=B8 =D0=B2 Jira." href=3D"https://arhip1987.atlassi=
+an.net/issues/?jql=3Dproject+%3D+%22BB%22+ORDER+BY+created+DESC&amp;src=3Dc=
+onfmacro"> =D0=9F=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC: 10 </a> </span>=20
+</div>=20
+<p></p>=20
+</div>=20
+<h2 style=3D"text-align: center;" id=3D"id-=D0=91=D0=B8=D0=B1=D0=BB=D0=B8=
+=D0=BE=D1=82=D0=B5=D0=BA=D0=B0-=D0=A0=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=
+=D0=B4=D0=B0=D1=86=D0=B8=D0=B8">=D0=A0=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=
+=D0=B4=D0=B0=D1=86=D0=B8=D0=B8</h2>
+<p>=D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=
+=82 - =D0=B1=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=D0=BA=D0=B0 =D1=8F=
+=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F Minimal viable product. =D0=9E=
+=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=B5 =D1=86=D0=B5=D0=BB=D0=B8 =D0=B8 =
+=D0=B7=D0=B0=D0=B4=D0=B0=D1=87=D0=B8 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=
+=D0=B5=D0=BD=D1=8B =D0=B8 =D1=81=D0=B0=D0=B9=D1=82=D0=BE=D0=BC =D1=83=D0=B6=
+=D0=B5 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=
+=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F. =D0=94=D0=BB=D1=8F =D0=B1=D0=BE=D0=BB=
+=D0=B5=D0=B5 =D1=83=D0=B4=D0=BE=D0=B1=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=D1=81=
+=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=80=
+=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=D1=83=D1=8E =D0=B8=D1=81=D0=BF=
+=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=83 =
+=D1=84=D0=B8=D0=BB=D1=8C=D1=82=D1=80=D0=B0 =D0=BA=D0=BD=D0=B8=D0=B3. =D0=92=
+ =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 =
+=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D0=BA=
+=D0=BD=D0=B8=D0=B3=D0=B5 =D0=BD=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D0=B2=
+=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=B2 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5 =
+=D0=B5=D1=81=D0=BB=D0=B8 =D0=B8=D0=B4=D0=B5=D1=82 =D0=BF=D0=BE=D0=B8=D1=81=
+=D0=BA =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 =D1=87=D0=B5=D1=80=D0=B5=D0=B7 =D1=84=
+=D0=B8=D0=BB=D1=8C=D1=82=D1=80 =D0=B6=D0=B0=D0=BD=D1=80=D1=8B. =D0=9D=D0=B5=
+=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D1=83=D0=BB=D1=83=D1=87=
+=D1=88=D0=B8=D1=82=D1=8C =D0=BD=D0=B0=D0=B2=D0=B8=D0=B3=D0=B0=D1=86=D0=B8=
+=D1=8E, =D0=B4=D0=BB=D1=8F =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D1=83=D0=B4=D0=
+=BE=D0=B1=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D0=BE=D0=B8=D1=81=D0=BA=D0=B0 =D0=
+=BA=D0=BD=D0=B8=D0=B3 =D0=B8 =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=82=D0=
+=B0 =D0=BD=D0=B0 =D0=BF=D0=B5=D1=80=D0=B2=D0=BE=D0=BD=D0=B0=D1=87=D0=B0=D0=
+=BB=D1=8C=D0=BD=D1=83=D1=8E =D0=B8=D0=BB=D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D1=
+=85=D0=BE=D0=B4 =D0=BD=D0=B0 =D0=BD=D1=83=D0=B6=D0=BD=D1=83=D1=8E =D1=81=D1=
+=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=83 =D1=81=D0=B0=D0=B9=D1=82=D0=B0. =D0=
+=94=D0=BB=D1=8F =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D0=BF=D1=80=D0=B8=D1=8F=D1=
+=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=81=D0=B0=D0=B9=D1=82=D0=B0 =D1=80=D0=
+=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=D1=83=D1=8E =D0=B8=D1=81=D0=BF=D0=
+=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=B4=D0=B8=D0=B7=D0=
+=B0=D0=B9=D0=BD=D0=B5=D1=80=D1=81=D0=BA=D0=B8=D0=B9 =D0=BF=D0=BE=D0=B4=D1=
+=85=D0=BE=D0=B4. =D0=A1=D0=B4=D0=B5=D0=BB=D0=B0=D1=82=D1=8C =D1=84=D0=BE=D0=
+=BD, =D0=B2=D1=8B=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=8C =D0=BE=D1=82=D0=B4=D0=
+=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=
+=82=D1=8B =D0=B2=D0=B5=D1=80=D1=81=D1=82=D0=BA=D0=B8 =D1=86=D0=B2=D0=B5=D1=
+=82=D0=B0=D0=BC=D0=B8. =D0=A1=D0=B4=D0=B5=D0=BB=D0=B0=D1=82=D1=8C =D1=80=D0=
+=B0=D0=B7=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=B5 =D1=88=D1=80=D0=B8=D1=84=D1=
+=82=D1=8B =D0=B4=D0=BB=D1=8F =D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D1=85 =D1=82=D0=
+=B5=D0=BA=D1=81=D1=82=D0=BE=D0=B2 =D0=B8 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=
+=BD=D0=B8=D0=B9. =D0=A1=D0=B4=D0=B5=D0=BB=D0=B0=D1=82=D1=8C =D0=B2=D1=8B=D0=
+=B4=D0=B5=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=
+=BD=D1=82=D0=BE=D0=B2 =D0=BF=D1=80=D0=B8 =D0=BD=D0=B0=D0=B2=D0=B5=D0=B4=D0=
+=B5=D0=BD=D0=B8=D0=B8 =D0=BD=D0=B0 =D0=BD=D0=B8=D1=85 =D0=BA=D1=83=D1=80=D1=
+=81=D0=BE=D1=80=D0=B0 =D0=BC=D1=8B=D1=88=D0=BA=D0=B8 =D0=B8=D0=BB=D0=B8 =D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BA=D1=83=D1=80=D1=
+=81=D0=BE=D1=80=D0=B0 =D0=BC=D1=8B=D1=88=D0=BA=D0=B8 =D0=BF=D1=80=D0=B8 =D0=
+=BD=D0=B0=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B8 =D0=BD=D0=B0 =D1=8D=D0=
+=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82 =D0=B2=D0=B5=D1=80=D1=81=D1=82=D0=BA=D0=
+=B8 =D1=81 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=BC =D0=BC=D0=BE=D0=B6=D0=
+=BD=D0=BE =D0=B2=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=
+=82=D0=B2=D0=BE=D0=B2=D0=B0=D1=82=D1=8C.</p>
+<p>=D0=94=D0=BB=D1=8F =D1=83=D0=BB=D1=83=D1=87=D1=88=D0=B5=D0=BD=D0=B8=D1=
+=8F =D1=81=D0=B0=D0=B9=D1=82=D0=B0 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=
+=B4=D0=B8=D0=BC=D0=BE =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=
+=B0=D1=82=D1=8C =D0=BD=D0=BE=D0=B2=D1=83=D1=8E =D1=82=D0=B5=D1=81=D1=82=D0=
+=BE=D0=B2=D1=83=D1=8E =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=
+=B0=D1=86=D0=B8=D1=8E =D0=BF=D0=BE =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=
+=BD=D0=B8=D1=8E =D0=B4=D0=B8=D0=B7=D0=B0=D0=B9=D0=BD=D0=B0 =D1=81=D0=B0=D0=
+=B9=D1=82=D0=B0 ,=D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=
+=8F =D0=BD=D0=BE=D0=B2=D1=8B=D1=85 =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=
+=82=D0=BE=D0=B2 =D0=B4=D0=BB=D1=8F =D0=B8=D0=BD=D1=82=D1=83=D0=B8=D1=82=D0=
+=B8=D0=B2=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=
+=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=81=D0=B0=D0=B9=D1=82=D0=B0, =D0=
+=BD=D0=B0=D0=B2=D0=B8=D0=B3=D0=B0=D1=86=D0=B8=D0=B8 =D0=B8 =D1=8D=D0=BB=D0=
+=B5=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=B2=D0=B5=D1=80=D1=81=D1=82=D0=
+=BA=D0=B8. =D0=A1=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BD=D0=
+=BE=D0=B2=D1=8B=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D1=8B =D0=B4=D0=BB=D1=8F =D0=
+=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B8 =D0=BD=D0=BE=D0=B2=D0=BE=D0=
+=B3=D0=BE =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D0=
+=B0.</p>
+<p></p>
+<p></p>
+<p> </p>
+    </div>
+</body>
+</html>
+------=_Part_76_197786745.1694599846260
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/962f91feb15283dc743e7f7adbceccf4
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_76_197786745.1694599846260--
