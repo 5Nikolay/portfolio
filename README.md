@@ -6,7 +6,7 @@
 
 ### Навыки и технологии
 ``Jira``, ``qase.io``, SQL``,  ``Postman``, ``Swagger``, ``Trello``, ``Miro``,
-``SoapUI``, ``Chrome DevTools``.
+``SoapUI``, ``Chrome DevTools``
 
 ### Проекты
 
